@@ -23,7 +23,7 @@ pnpm add opinbox-survey-builder
 ### SurveyJS
 
 ```bash
-pnpm add survey-core survey-creator-core survey-react-ui
+pnpm add survey-core survey-creator-core survey-react-ui survey-creator-react jspsych
 ```
 
 ### 3. Add the Style
@@ -40,6 +40,8 @@ Import Opinbox-Builder styles into the `index.css` file
 ```bash
 npm run dev
 ```
+
+###
 
 ### 7. Run your survey
 
