@@ -28,4 +28,5 @@ export const options: InitOptions = {
         console.log({ data })
         console.log("Trial Ended!")
     },
+    publish: false,
 }

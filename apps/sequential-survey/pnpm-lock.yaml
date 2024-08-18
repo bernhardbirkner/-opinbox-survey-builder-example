@@ -9,31 +9,25 @@ importers:
   .:
     dependencies:
       '@jspsych/plugin-html-button-response':
-        specifier: ^2.0.0
-        version: 2.0.0(jspsych@7.3.4)
+        specifier: 1.1.2
+        version: 1.1.2(jspsych@7.3.4)
       jspsych:
-        specifier: ^7.0.0
+        specifier: ^7.3.4
         version: 7.3.4
       opinbox-survey-builder:
-        specifier: ^0.2.0
-        version: 0.2.3(jspsych@7.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-creator-react@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11))
+        specifier: 0.2.3-d
+        version: 0.2.3-d(jspsych@7.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-creator-react@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11))
       react:
-        specifier: ^18.3.1
+        specifier: ^18.2.0
         version: 18.3.1
       react-dom:
-        specifier: ^18.3.1
+        specifier: ^18.2.0
         version: 18.3.1(react@18.3.1)
       survey-core:
-        specifier: ^1.11.11
+        specifier: ^1.11.10
         version: 1.11.11
-      survey-creator-core:
-        specifier: ^1.11.11
-        version: 1.11.11(survey-core@1.11.11)
-      survey-creator-react:
-        specifier: ^1.11.11
-        version: 1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11))
       survey-react-ui:
-        specifier: ^1.11.11
+        specifier: ^1.11.10
         version: 1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)
     devDependencies:
       '@eslint/js':
@@ -60,6 +54,12 @@ importers:
       globals:
         specifier: ^15.9.0
         version: 15.9.0
+      survey-creator-core:
+        specifier: ^1.11.10
+        version: 1.11.11(survey-core@1.11.11)
+      survey-creator-react:
+        specifier: ^1.11.10
+        version: 1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11))
       typescript:
         specifier: ^5.5.3
         version: 5.5.4
@@ -353,8 +353,8 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@jspsych/plugin-html-button-response@2.0.0':
-    resolution: {integrity: sha512-Fyu31Fo8YMYJrzA7S5CcaEiJQ+aIW/M9SvpXXBi3gh/EUuGf9otxk8ktMsffrmwEN8qZwGEYkm/QMyFwI3ZJLA==}
+  '@jspsych/plugin-html-button-response@1.1.2':
+    resolution: {integrity: sha512-o8ea0UsqW+hGAlJFPzAMnQ8fYzVekHzrkBkggYB73uw0QeBn8SCIyWyUP+cDv/jix1Jku4cSkGvEhwbE9M+vLA==}
     peerDependencies:
       jspsych: '>=7.1.0'
 
@@ -933,8 +933,8 @@ packages:
   node-releases@2.0.18:
     resolution: {integrity: sha512-d9VeXT4SJ7ZeOqGX6R5EM022wpL+eWPooLI+5UpWn2jCT1aosUQEhQP214x33Wkwx3JQMvIm+tIoVOdodFS40g==}
 
-  opinbox-survey-builder@0.2.3:
-    resolution: {integrity: sha512-oat8nx104ryZu0+ponGwh1dzv2lHRS8XQKSfwfbIBo/zz2oEI++O7LfwK1+p6OiMejkq5kq7tbBPDDLo46z0bg==}
+  opinbox-survey-builder@0.2.3-d:
+    resolution: {integrity: sha512-wApYmdeau8tYkv9V72sCGdBzGTIUuhRGSZ/xiEtUKncc1UorOFu05MWIJRgWbzqnZfHffed0BoWa2HQIDV2Wsw==}
     peerDependencies:
       jspsych: ^7.3.4
       react: ^18.2.0
@@ -1480,7 +1480,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@jspsych/plugin-html-button-response@2.0.0(jspsych@7.3.4)':
+  '@jspsych/plugin-html-button-response@1.1.2(jspsych@7.3.4)':
     dependencies:
       jspsych: 7.3.4
 
@@ -2058,7 +2058,7 @@ snapshots:
 
   node-releases@2.0.18: {}
 
-  opinbox-survey-builder@0.2.3(jspsych@7.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-creator-react@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)):
+  opinbox-survey-builder@0.2.3-d(jspsych@7.3.4)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-creator-react@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)(survey-creator-core@1.11.11(survey-core@1.11.11))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)))(survey-react-ui@1.11.11(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(survey-core@1.11.11)):
     dependencies:
       js-base64: 3.7.7
       js-sha256: 0.11.0

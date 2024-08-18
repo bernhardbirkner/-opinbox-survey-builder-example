@@ -1,4 +1,4 @@
-import { FunctionFactory } from "survey-core";
+import { FunctionFactory } from "opinbox-survey-builder";
 
 let randomValue = Math.random()
 
