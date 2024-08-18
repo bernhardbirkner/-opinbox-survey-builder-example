@@ -7,7 +7,7 @@ import './App.css'
 import "./surveyjs/expressions";
 
 function App() {
-  const isDev = import.meta.env.MODE === 'development'
+  const isDev = import.meta.env.DEV;
   return (
     <OpinboxBuilder
       surveys={[

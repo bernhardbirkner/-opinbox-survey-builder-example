@@ -31,8 +31,10 @@ pnpm add survey-core survey-creator-core survey-react-ui survey-creator-react js
 Import Opinbox-Builder styles into the `index.css` file
 
 ```css
-/* Import the Opinbox-Builder Styles */
-@import "opinbox-survey-builder/dist/style.css";
+/* Add SurveyJS And JsPsych Styles */
+@import "survey-core/defaultV2.min.css";
+@import "survey-creator-core/survey-creator-core.css";
+@import "jspsych/css/jspsych.css";
 ```
 
 ### 4. Start building Surveys!
@@ -41,9 +43,13 @@ Import Opinbox-Builder styles into the `index.css` file
 npm run dev
 ```
 
-###
+### 5. Build Your survey for production
 
-### 7. Run your survey
+```bash
+npm run build
+```
+
+### 6. Run your survey
 
 ```bash
 npm run preview
