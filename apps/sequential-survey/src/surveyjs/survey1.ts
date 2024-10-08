@@ -1,4 +1,4 @@
-export const survey1 = {
+export const json = {
     "title": "Survey 1",
     "logoPosition": "right",
     "pages": [

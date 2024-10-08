@@ -1,6 +1,6 @@
 import { OpinboxBuilder } from 'opinbox-survey-builder'
 import { options, timeline } from './jspsych/experiment'
-import { survey1 } from './surveyjs/survey1';
+import { json as survey1 } from './surveyjs/survey1';
 import './App.css'
 // Note:
 // Execute the code to register custom functions!
