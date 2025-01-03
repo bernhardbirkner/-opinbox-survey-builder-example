@@ -11,8 +11,8 @@ function App() {
   return (
     <OpinboxBuilder
       surveys={[
-        { type: "JSPSYCH", options: options, timeline: timeline },
         { type: "SURVEYJS", json: survey1 },
+        { type: "JSPSYCH", options: options, timeline: timeline },
       ]}
       dev={isDev}
     />

@@ -1,33 +1,62 @@
-export const json = {
-    "title": "Survey 1",
-    "logoPosition": "right",
-    "pages": [
+export const json={
+  "title": "Survey Number 05.03.1991. .",
+  "description": "My lovely Subtitle",
+  "logoPosition": "right",
+  "pages": [
+    {
+      "name": "page1",
+      "title": "How is your mood today?",
+      "elements": [
         {
-            "name": "page1",
-            "elements": [
-                {
-                    "type": "rating",
-                    "name": "question1",
-                    "title": "How good are you in designing surveys?",
-                    "rateType": "smileys"
-                },
-                {
-                    "type": "text",
-                    "name": "question2",
-                    "title": "Tell us why?"
-                }
-            ],
-            "title": "How great are your skills?"
+          "type": "boolean",
+          "name": "question1",
+          "title": "Are you feeling well today?"
         },
         {
-            "name": "page2",
-            "elements": [
-                {
-                    "type": "text",
-                    "name": "question4",
-                    "title": "Some other text input"
-                }
-            ]
+          "type": "ranking",
+          "name": "question2",
+          "title": "Yeeeas Question 2",
+          "choices": [
+            {
+              "value": "Item 1",
+              "text": "sdsaf"
+            },
+            {
+              "value": "Item 2",
+              "text": "fasdf"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "question4",
+          "title": "New!",
+          "inputType": "password"
+        },
+        {
+          "type": "expression",
+          "name": "testButton",
+          "title": "ButtonRef",
+          "expression": "testButton()"
+        },
+        {
+          "type": "expression",
+          "name": "random",
+          "title": "Random",
+          "expression": "random()"
         }
-    ]
+      ]
+    },
+    {
+      "name": "page2",
+      "title": "Hello!",
+      "elements": [
+        {
+          "type": "text",
+          "name": "question3",
+          "title": "I am new"
+        }
+      ]
+    }
+  ]
 }

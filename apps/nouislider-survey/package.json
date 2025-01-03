@@ -12,15 +12,15 @@
   "dependencies": {
     "jspsych": "^7.3.4",
     "nouislider": "14.6.0",
-    "opinbox-survey-builder": "0.2.6",
+    "opinbox-survey-builder": "0.2.15",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "survey-core": "1.11.11",
-    "survey-creator-core": "1.11.11",
-    "survey-creator-react": "1.11.11",
-    "survey-pdf": "1.11.11",
-    "survey-react-ui": "1.11.11",
-    "surveyjs-widgets": "1.11.11"
+    "survey-core": "1.12.4",
+    "survey-creator-core": "1.12.4",
+    "survey-creator-react": "1.12.4",
+    "survey-react-ui": "1.12.4",
+    "survey-pdf": "1.12.4",
+    "surveyjs-widgets": "1.12.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
